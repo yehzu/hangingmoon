@@ -4,9 +4,11 @@
 .. tags: 中國繪畫
 
 
-|早春圖|
 
-.. |早春圖| image:: http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg/412px-Guo_Xi_-_Early_Spring_%28large%29.jpg 
+.. figure:: http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg/412px-Guo_Xi_-_Early_Spring_%28large%29.jpg 
+    :target: http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Guo_Xi_-_Early_Spring_%28large%29.jpg/412px-Guo_Xi_-_Early_Spring_%28large%29.jpg 
+    :class: thumbnail
+    :alt: 早春圖 (from Wikipedia)
 
 郭熙《早春圖》 藏於台北故宮
 絹本，水墨，長 158.3 公分，寬 108.1 公分。畫於神宗熙寧五年（西元 1072 年）。
