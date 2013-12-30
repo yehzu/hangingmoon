@@ -10,10 +10,10 @@ BLOG_AUTHOR = "yehzu"
 BLOG_TITLE = "掛月軒"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://yehzu.github.com/"
+SITE_URL = "http://yehzu.github.io/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://yehzu.github.com/"
+# BASE_URL = "http://yehzu.github.io/"
 BLOG_EMAIL = "yehzu2@gmail.com"
 BLOG_DESCRIPTION = ""
 
