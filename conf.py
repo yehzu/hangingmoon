@@ -475,7 +475,7 @@ PRETTY_URLS = True
 # HIDE_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies HIDE_SOURCELINK = True
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
