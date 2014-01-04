@@ -223,7 +223,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -7797,8 +7797,66 @@ h1, h2, h3, h4, h5, h6, h7 {
     padding-top: 40px;
 }
 
-html *
-{
-	font-family: 'Cardo', serif;
-	font-family: 'Roboto Slab', serif;
+
+/* CJK Unified Ideographs U+4E00-U+9FFF */
+@font-face {
+  font-family: sans-serif;
+  src: local(Heiti TC), local("微軟正黑體"), local("Microsoft JhengHei");
+  unicode-range: U+4E00-9FFF;
+}
+
+@font-face {
+  font-family: serif;
+  src: local(LiSong Pro), local("新細明體"), local("PMingLiU");
+  unicode-range: U+4E00-9FFF;
+}
+
+/* Japanese Kana U+3040-U+30FF */
+@font-face {
+  font-family: sans-serif;
+  src: local(Hiragino Kaku Gothic Pro), local(Meiryo);
+  unicode-range: U+3040-30FF;
+}
+
+@font-face {
+  font-family: serif;
+  src: local(Hiragino Mincho Pro), local(MS PMincho);
+  unicode-range: U+3040-30FF;
+}
+
+/* Bopomofo U+3105-U+312C */
+@font-face {
+  font-family: sans-serif;
+  src: local(LiHei Pro), local("微軟正黑體"), local(Microsoft JhengHei);
+  unicode-range: U+3105-312C;
+}
+
+@font-face {
+  font-family: serif;
+  src: local(LiSong Pro), local("新細明體"), local(PMingLiU);
+  unicode-range: U+3105-312C;
+}
+
+/* Latin, Latin1, Latin Ext-A, Latin Ext-B */
+@font-face {
+  font-family: sans-serif;
+  src: local(Helvetica), local(Arial);
+  unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: serif;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v2/y7lebkjgREBJK96VQi37ZrrIa-7acMAeDBVuclsi6Gc.woff) format('woff'), local(Times), local(Times New Roman);
+  unicode-range: U+00-024F;
+}
+
+
+div[itemprop="articleBody text"]{
+    font-family: serif;
+    letter-spacing:.1em;
+        line-height:2em; 
+}
+
+h1[itemprop="headline name"]{
+    font-family: sans-serif;
 }

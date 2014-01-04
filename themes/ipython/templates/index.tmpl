@@ -5,12 +5,14 @@
 {% block content %}
     {% for post in posts %}
         <div class="postbox">
-        <h1><a href="{{ post.permalink() }}">{{ post.title() }}</a></h1>
+        <h1 class="p-name" itemprop="headline name"><a href="{{ post.permalink() }}">{{ post.title() }}</a></h1>
         <p style="text-align:right"><small>
              {{ messages("Posted") }}: <time class="published" datetime="{{ post.date.isoformat() }}">{{ post.formatted_date(date_format) }}</time>
         </small></p>
         <hr>
+	<div itemprop="articleBody text">
         {{ post.text(teaser_only=index_teasers) }}
+	</div>
         {% if not post.meta('nocomments') %}
             {{ comments.comment_link(post.permalink(), post.base_path) }}
         {% endif %}
