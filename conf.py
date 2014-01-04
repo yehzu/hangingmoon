@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#  -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
 import time
@@ -293,7 +293,9 @@ COMPILERS = {
 
 # Name of the theme to use.
 # THEME = "bootstrap3"
-THEME="bootstrap3-gradients"
+# THEME="bootstrap3-gradients"
+THEME = "ipython"
+# THEME = "slate-ipython"
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -479,7 +481,7 @@ PRETTY_URLS = True
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-# INDEX_DISPLAY_POST_COUNT = 10
+## INDEX_DISPLAY_POST_COUNT = 10
 
 # RSS_LINK is a HTML fragment to link the RSS or Atom feeds. If set to None,
 # the base.tmpl will use the feed Nikola generates. However, you may want to
@@ -498,19 +500,36 @@ PRETTY_URLS = True
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
+
 SEARCH_FORM = """
-<!-- Custom search -->
-<form method="get" id="search" action="http://duckduckgo.com/"
- class="navbar-form pull-left">
-<input type="hidden" name="sites" value="%s"/>
-<input type="hidden" name="k8" value="#444444"/>
-<input type="hidden" name="k9" value="#D51920"/>
-<input type="hidden" name="kt" value="h"/>
-<input type="text" name="q" maxlength="255"
- placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
-<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
-</form>
-<!-- End of custom search -->
+    <!-- Custom search -->
+    <form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+        <input type="hidden" name="sites" value="%s"/>
+        <input type="hidden" name="k8" value="#444444"/>
+        <input type="hidden" name="k9" value="#D51920"/>
+        <input type="hidden" name="kt" value="h"/>
+        <input type="text" name="q" maxlength="255" placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
+        <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+    </form>
+    <!-- End of custom search -->
+""" % SITE_URL
+
+
+
+
+#SEARCH_FORM = """
+#<!-- Custom search -->
+#<form method="get" id="search" action="http://duckduckgo.com/"
+# class="navbar-form pull-left">
+#<input type="hidden" name="sites" value="%s"/>
+#<input type="hidden" name="k8" value="#444444"/>
+#<input type="hidden" name="k9" value="#D51920"/>
+#<input type="hidden" name="kt" value="h"/>
+#<input type="text" name="q" maxlength="255"
+# placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
+#<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+#</form>
+#<!-- End of custom search -->
 #""" % SITE_URL
 #
 # If you prefer a google search form, here's an example that should just work:
