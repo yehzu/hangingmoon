@@ -14,7 +14,7 @@ SITE_URL = "http://yehzu.github.io/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://yehzu.github.io/"
-BLOG_EMAIL = "yehzu2@gmail.com"
+BLOG_EMAIL = "yehzu2[at]gmail.com"
 BLOG_DESCRIPTION = ""
 
 # Nikola is multilingual!
@@ -459,6 +459,8 @@ PRETTY_URLS = True
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
+SOCIAL_BUTTONS_CODE = """
+"""
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
@@ -474,7 +476,7 @@ PRETTY_URLS = True
 # """
 
 # Hide link to source for the posts?
-# HIDE_SOURCELINK = False
+HIDE_SOURCELINK = True
 # Copy the source files for your pages?
 # Setting it to False implies HIDE_SOURCELINK = True
 COPY_SOURCES = False
@@ -532,6 +534,7 @@ SEARCH_FORM = """
 #<!-- End of custom search -->
 #""" % SITE_URL
 #
+
 # If you prefer a google search form, here's an example that should just work:
 #SEARCH_FORM = """
 #<!-- Custom search with google-->
@@ -617,14 +620,14 @@ SEARCH_FORM = """
 # Specifying the id for either 'site' or 'creator' will be preferred
 # over the cleartext username. Specifying an ID is not necessary.
 # Displaying images is currently not supported.
-# TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards / Open Graph
-#     # 'site': '@website',  # twitter nick for the website
-#     # 'site:id': 123456,  # Same as site, but the website's Twitter user ID
-#                           # instead.
-#     # 'creator': '@username',  # Username for the content creator / author.
-#     # 'creator:id': 654321,  # Same as creator, but the Twitter user's ID.
-# }
+#TWITTER_CARD = {
+#    # 'use_twitter_cards': True,  # enable Twitter Cards / Open Graph
+#    # 'site': '@website',  # twitter nick for the website
+#    # 'site:id': 123456,  # Same as site, but the website's Twitter user ID
+#                          # instead.
+#    # 'creator': '@yehzu',  # Username for the content creator / author.
+#    # 'creator:id': yehzu,  # Same as creator, but the Twitter user's ID.
+#}
 
 
 # Post's dates are considered in UTC by default, if you want to use
@@ -635,7 +638,7 @@ SEARCH_FORM = """
 # Also, if you want to use a different time zone in some of your posts,
 # you can use W3C-DTF Format (ex. 2012-03-30T23:00:00+02:00)
 #
-# TIMEZONE = 'UTC'
+TIMEZONE = 'Asia/Taipei'
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
 # USE_BUNDLES = True
