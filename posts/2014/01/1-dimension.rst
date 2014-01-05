@@ -1,5 +1,5 @@
 .. title: 《一維》有感
-.. slug: 2014/01/05 1-dimension
+.. slug: 1-dimension
 .. date: 2014/01/05 19:35:04
 .. tags: 影片
 .. link: 

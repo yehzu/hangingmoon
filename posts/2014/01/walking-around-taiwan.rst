@@ -1,5 +1,5 @@
 .. title: 走路環島
-.. slug: 2014/01/walking-around-taiwan
+.. slug: walking-around-taiwan
 .. date: 2014/01/05 00:59:35
 .. tags: 走路環島, draft
 .. link: 
