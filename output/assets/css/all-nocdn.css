@@ -7879,3 +7879,8 @@ ul.nav{
 input[type="text"]{
     font-family: 'Kaushan Script', cursive;
 }
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
