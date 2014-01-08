@@ -6,82 +6,98 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://yehzu.github.io/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/2012/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/2014/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/archive.html</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
+ </url>
+ <url>
+  <loc>http://yehzu.github.io/categories/qing-song-xue-chan-ban.html</loc>
+  <lastmod>2014-01-09</lastmod>
+ </url>
+ <url>
+  <loc>http://yehzu.github.io/categories/qing-song-xue-chan-ban.xml</loc>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/xin-qing.html</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/xin-qing.xml</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/ying-pian.html</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/ying-pian.xml</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/zhong-guo-hui-hua.html</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/categories/zhong-guo-hui-hua.xml</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/galleries/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/galleries/rss.xml</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/listings/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/posts/2012/11/raining-day/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/posts/2012/11/zao-chun-tu/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/posts/2014/01/1-dimension/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/posts/2014/01/walking-around-taiwan/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
+ </url>
+ <url>
+  <loc>http://yehzu.github.io/posts/DDM-Meditation-1/</loc>
+  <lastmod>2014-01-09</lastmod>
+ </url>
+ <url>
+  <loc>http://yehzu.github.io/posts/DDM/MeditationClass/DDM-Meditation-1/</loc>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/rss.xml</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-09</lastmod>
  </url>
  <url>
   <loc>http://yehzu.github.io/stories/about-me/</loc>
-  <lastmod>2014-01-05</lastmod>
+  <lastmod>2014-01-08</lastmod>
  </url>
 </urlset>
